@@ -7,7 +7,7 @@ import streamlit as st
 st.title("Dashboard Analisis Penyewaan Sepeda")
 
 # Membaca Dataset
-df_day = pd.read_csv("archive/day.csv")
+df_day = pd.read_csv("data/day.csv")
 
 # Menampilkan 5 baris pertama
 df_preview = df_day.head()
