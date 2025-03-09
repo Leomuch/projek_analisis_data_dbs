@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 # Judul Dashboard
-st.title("Dashboard Analisis Penyewaan Sepeda 🚲")
+st.title("Dashboard Analisis Penyewaan Sepeda")
 
 # Membaca Dataset
 df_day = pd.read_csv("archive/day.csv")
